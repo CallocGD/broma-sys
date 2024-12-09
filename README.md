@@ -17,6 +17,6 @@ so that servers and discord bots will be able to handle parsing broma files mult
 [PyBroma](https://github.com/CallocGD/PyBroma) You can see my progress on getting that passed [here](https://github.com/geode-sdk/Broma/pull/7)
 
 ## Where's the frontend?
-If your looking for the frontend we will put it on the in offical (Geometry Dash Reverse Engineering)[https://github.com/GD-RE] repos soon as 
-all the rust bindings here have been completely fixed. I want to thank the reverse engineering community for getting us as far as we have.
+If your looking for the frontend we will put it in the [Offical Geometry Dash Reverse Engineering](https://github.com/GD-RE) repos soon as 
+once all the rust bindings here have been completely fixed. I want to thank the reverse engineering community for getting us as far as we have.
 This would not be possible without your help.
