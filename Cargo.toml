@@ -1,0 +1,15 @@
+[package]
+name = "broma-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.0"
+
+[lib]
+crate-type = ["staticlib"]
+
+
+[build-dependencies]
+cc = "1.2.3"
+bindgen = "0.70.1"
