@@ -6,6 +6,7 @@
 extern "C" {
 #else 
 #include <stdbool.h>
+#include <stdlib.h> // size_t should be in there...
 #endif 
 
 
