@@ -20,6 +20,7 @@ fn main(){
     build.flag_if_supported("-std=c++17");
     build.flag_if_supported("/std:c++17");
     build.flag_if_supported("-fexceptions");
+    build.flag_if_supported("-fpermissive");
     build.flag_if_supported("/EHsc");
 
     // just so we can reach ghc. That's fucked up and I spent 2 hours just figuring that out.
