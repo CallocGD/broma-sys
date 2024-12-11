@@ -162,15 +162,15 @@ FieldType cbroma_Field__get_field_type(void* ctx){
 void* cbroma_Field__get_field(void* ctx){
     broma::Field *handle = (broma::Field*)ctx;
     if (auto a = handle->get_as<broma::InlineField>()){
-        return reinterpret_cast<void*>(a);
+        return reinterpret_cast<void*>(&a);
     }
     if (auto a = handle->get_as<broma::FunctionBindField>()){
-        return reinterpret_cast<void*>(a);
+        return reinterpret_cast<void*>(&a);
     }
     if (auto a = handle->get_as<broma::PadField>()){
-        return reinterpret_cast<void*>(a);
+        return reinterpret_cast<void*>(&a);
     }
-    return reinterpret_cast<void*>(handle->get_as<broma::MemberField>());
+    return reinterpret_cast<void*>(&handle->get_as<broma::MemberField>());
 }
 
 
