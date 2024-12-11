@@ -218,4 +218,10 @@ namespace broma {
 			return &*it;
 		}
 	};
+
+	typedef struct SafeRootResult {
+		void* result;
+		bool is_error;
+	} SafeRootResult;
+
 } // namespace broma
