@@ -16,7 +16,6 @@ fn main(){
     ).join("bindings.rs")).unwrap();
 
     let mut build = cc::Build::new();
-    build.cpp(true);
     build.flag_if_supported("-std=c++17");
     build.flag_if_supported("/std:c++17");
     build.flag_if_supported("-fexceptions");
